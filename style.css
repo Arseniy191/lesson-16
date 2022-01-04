@@ -1,0 +1,35 @@
+nav ul li{
+    display: inline-block;
+}
+body{
+    background-color: red;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    align-items: center;
+    text-align: center;
+
+    
+}
+a{
+    text-decoration: none;
+}
+nav ul li:hover > ul{ 
+    background-color: orange;
+    color: white;
+    display: block;
+}
+li{
+    color: black   ;
+}
+nav ul{
+ list-style: none;
+ position: relative;
+}
+nav a{
+    display: block;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+}
